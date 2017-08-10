@@ -9,23 +9,23 @@ $(document).ready(function() {
        alert("Please fill out each question");
      } else {
        if(answer1 === 'red' && answer2 === 'male' && answer3 === 'no'){
-         $('.character').append('Ronald Weasley!')
+         $('.character').text('Ronald Weasley!')
          $('.result').show();
          $('#ron').show();
        } else if (answer1 === 'brown' && answer2 === 'male' && answer3 === 'no'){
-         $('.character').append('Neville Longbottom!')
+         $('.character').text('Neville Longbottom!')
          $('.result').show();
          $('#neville').show();
        } else if (answer1 === 'black' && answer2 === 'male' && answer3 === 'yes'){
-         $('.character').append('Harry Potter!')
+         $('.character').text('Harry Potter!')
          $('.result').show();
          $('#harry').show();
        } else if (answer1 === 'brown' && answer2 === 'female' && answer3 === 'no'){
-         $('.character').append('Hermoine Granger!')
+         $('.character').text('Hermoine Granger!')
          $('.result').show();
          $('#hermoine').show();
        } else {
-         $('.character').append('a student at Hogwarts! Woohoo!')
+         $('.character').text('a student at Hogwarts! Woohoo!')
          $('.result').show();
          $('#student').show();
        }
