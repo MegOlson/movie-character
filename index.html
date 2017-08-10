@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Harry Potter Character Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Harry Potter Quiz</h1>
+    </div>
+    <form>
+      <div class="q1">
+        <h4>What color hair do you have?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="red">
+            Red
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="brown">
+            Brown
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="black">
+            Black
+          </label>
+        </div>
+      </div>
+      <div class="q2">
+        <h4>Are you a male or female?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="male">
+            Male
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="female">
+            Female
+          </label>
+        </div>
+      </div>
+      <div class="q3">
+        <h4>Do you wear glasses?</h4>
+        <div class="radio">
+          <label>
+            <input type="radio" name="glasses" value="yes">
+            Yes
+          </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="glasses" value="no">
+            No
+          </label>
+        </div>
+      </div>
+      <button type=submit class="btn">Submit</button>
+      </form>
+      <div class="result">
+        <p>You are <span class="character"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
