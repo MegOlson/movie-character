@@ -1,3 +1,27 @@
 .result {
   display: none;
 }
+img {
+  display: none;
+  width: 300px;
+}
+.jumbotron {
+  text-align: center;
+  color: 	#DAA520	;
+  background-color: #842d30;
+}
+body {
+  background: url(../img/train.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: black;
+}
+button {
+ background-color:#842d30	;
+ color: #DAA520
+}
+p {
+  padding-top: 20px;
+  font-size: 20px;
+}
